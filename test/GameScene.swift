@@ -82,8 +82,25 @@ class GameScene: SKScene {
         for t in touches { self.touchUp(atPoint: t.location(in: self)) }
     }
     
+    private func empty() {
+        
+    }
+    
+    private func empty2() {}
+    
+    private func empty3() {
+        
+        
+        
+        
+    }
+    
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
+}
+
+class Empty {
+    
 }
